@@ -7,18 +7,18 @@ public class CityScape {
     public static void main(String[] args) {
         BuildingType houseBuildingType = new BuildingType("House");
         Building house1 = new Building(21, houseBuildingType);
-        Building house2 = new Building(21, houseBuildingType);
-        Building house3 = new Building(21, houseBuildingType);
-        Building house4 = new Building(21, houseBuildingType);
-        Building house5 = new Building(21, houseBuildingType);
+        Building house2 = house1.clone();
+        Building house3 = house1.clone();
+        Building house4 = house1.clone();
+        Building house5 = house1.clone();
         houseBuildingType.setType("House with yard");
 
         BuildingType skyScrapperBuildingType = new BuildingType("skyscrapper");
         Building skyScrapper1 = new Building(86, skyScrapperBuildingType);
-        Building skyScrapper2 = new Building(86, skyScrapperBuildingType);
-        Building skyScrapper3 = new Building(86, skyScrapperBuildingType);
-        Building skyScrapper4 = new Building(86, skyScrapperBuildingType);
-        Building skyScrapper5 = new Building(86, skyScrapperBuildingType);
+        Building skyScrapper2 = skyScrapper1.clone();
+        Building skyScrapper3 = skyScrapper1.clone();
+        Building skyScrapper4 = skyScrapper1.clone();
+        Building skyScrapper5 = skyScrapper1.clone();
 
         List<Graphic> order = new ArrayList<Graphic>();
         order.add(house1);

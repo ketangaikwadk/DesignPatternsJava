@@ -22,4 +22,6 @@ public abstract class Graphic {
                 "heightInPixels=" + heightInPixels +
                 '}';
     }
+
+    public abstract Graphic clone();
 }
