@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="Added Builder Pattern Example">
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="Added Singleton Pattern Example">
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/LoggerEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -102,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713619781054</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Singleton Pattern Example">
+      <created>1713621141601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713621141601</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created structure" />
     <MESSAGE value="Added Builder Pattern Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Builder Pattern Example" />
+    <MESSAGE value="Added Singleton Pattern Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Singleton Pattern Example" />
   </component>
 </project>
