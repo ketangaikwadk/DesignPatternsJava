@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="created structure">
-      <change afterPath="$PROJECT_DIR$/BuilderPattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuilderPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuilderPattern/src/main/java/com/ketan/ItemRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuilderPattern/src/main/java/com/ketan/StoreItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuilderPattern/src/main/java/com/ketan/StoreItemBuilder.java" afterDir="false" />
+    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="Added Builder Pattern Example">
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
     "jdk.selected.JAVA_MODULE": "1.8"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ItemRegistry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ketan.ItemRegistry" />
       <module name="BuilderPattern" />
@@ -58,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ketan.Main" />
+      <module name="SingletonPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ketan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ItemRegistry" />
       </list>
     </recent_temporary>
@@ -80,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713618528811</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Builder Pattern Example">
+      <created>1713619781054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713619781054</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="created structure" />
+    <MESSAGE value="Added Builder Pattern Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Builder Pattern Example" />
   </component>
 </project>
