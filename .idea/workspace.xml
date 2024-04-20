@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="Added Singleton Pattern Example">
-      <change afterPath="$PROJECT_DIR$/SingletonPattern/src/main/java/com/ketan/LoggerEnum.java" afterDir="false" />
+    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="Added second way for Singleton Pattern Example">
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/com/ketan/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/com/ketan/BuildingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/com/ketan/CityScape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrototypePattern/src/main/java/com/ketan/Graphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,7 +45,20 @@
     "jdk.selected.JAVA_MODULE": "1.8"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CityScape">
+    <configuration name="CityScape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ketan.CityScape" />
+      <module name="PrototypePattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ketan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItemRegistry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ketan.ItemRegistry" />
       <module name="BuilderPattern" />
@@ -68,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CityScape" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ItemRegistry" />
       </list>
@@ -103,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713621141601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added second way for Singleton Pattern Example">
+      <created>1713621532122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713621532122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +148,7 @@
     <MESSAGE value="created structure" />
     <MESSAGE value="Added Builder Pattern Example" />
     <MESSAGE value="Added Singleton Pattern Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Singleton Pattern Example" />
+    <MESSAGE value="Added second way for Singleton Pattern Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added second way for Singleton Pattern Example" />
   </component>
 </project>

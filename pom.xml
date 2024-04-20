@@ -8,6 +8,7 @@
   <modules>
     <module>BuilderPattern</module>
     <module>SingletonPattern</module>
+    <module>PrototypePattern</module>
   </modules>
   <packaging>pom</packaging>
 
