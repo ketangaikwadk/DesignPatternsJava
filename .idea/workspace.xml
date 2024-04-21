@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="Added Factory Method Example phase 2">
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/BlueButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/BlueScrollbar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/RedButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/RedScrollbar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/Scrollbar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/UserInterface.java" afterDir="false" />
+    <list default="true" id="4d867428-ccfa-43f6-9a65-44a82d1f634a" name="Changes" comment="Added Abstract Factory Method Example phase 1">
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/BlueUserInterfaceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/FactoryMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/RedUserInterfaceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/UserInterfaceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryMethod/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryMethod/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,11 @@
     "jdk.selected.JAVA_MODULE": "1.8"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ketan" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ketan.App" />
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713686014843</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Abstract Factory Method Example phase 1">
+      <created>1713693138913</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713693138913</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,14 +222,15 @@
     <MESSAGE value="Added Prototype Pattern Example phase 2" />
     <MESSAGE value="Added Factory Method Example phase 1" />
     <MESSAGE value="Added Factory Method Example phase 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Factory Method Example phase 2" />
+    <MESSAGE value="Added Abstract Factory Method Example phase 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Abstract Factory Method Example phase 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/AbstractFactoryMethod/src/main/java/com/ketan/App.java</url>
-          <line>11</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

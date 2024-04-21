@@ -1,15 +1,10 @@
 package com.ketan;
 
-import javax.jws.soap.SOAPBinding;
-
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         UserInterface roadUserInterface = createUserInterface("RED");
         UserInterface mountainUserInterface = createUserInterface("BLUE");
 
@@ -18,13 +13,10 @@ public class App
     }
 
     private static UserInterface createUserInterface(String color) {
+        UserInterfaceFactory userInterfaceFactory = FactoryMaker.createFactory(color);
+        Button button = userInterfaceFactory.createButton();
+        Scrollbar scrollbar = userInterfaceFactory.createScrollbar();
 
-        if(color.equals("RED")){
-            return new UserInterface(new RedButton(),new RedScrollbar());
-        } else if (color.equals("BLUE")) {
-            return new UserInterface(new BlueButton(),new BlueScrollbar());
-        }else {
-            throw new IllegalArgumentException("Color not supported");
-        }
+        return new UserInterface(button, scrollbar);
     }
 }
